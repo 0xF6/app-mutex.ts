@@ -1,0 +1,43 @@
+{
+  "name": "app-mutex.ts",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "Yuuki Wesp",
+  "license": "MIT",
+  "private": false,
+  "description": "Signle App Instance Mutex locker implementation for TypeScript",
+  "keywords": [
+    "mutex",
+    "app",
+    "typescript",
+    "nodejs",
+    "global",
+    "lock",
+    "sync",
+    "signle",
+    "instance",
+    "application"
+  ],
+  "bugs": {
+    "url": "https://github.com/0xF6/app-mutex.ts/issues"
+  },
+  "homepage": "https://github.com/0xF6/app-mutex.ts#readme",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava test/**/*.test.ts --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xF6/app-mutex.ts.git"
+  },
+  "devDependencies": {
+    "@types/deasync": "^0.1.0",
+    "@types/node": "^10.3.5",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "deasync": "^0.1.13",
+    "find-process": "^1.1.1",
+    "linqable.ts": "^1.7.5"
+  }
+}
