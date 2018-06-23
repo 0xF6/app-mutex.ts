@@ -2,11 +2,11 @@
 Application Mutex locker implementation for TypeScript 🐢
 
 
-## Install
+### Install
 
 `yarn add app-mutex`
 
-## Usage
+### Usage
 
 ```TypeScript
 import { Mutex } from "app-mutext";
@@ -34,7 +34,7 @@ Then run your code in two instances, start only one. 😱
 
 
 
-## Why use it
+### Why use it
 
 1. When you need to protect your system from running two or more instances of your program
 2. When to know if your instance is running 😏
