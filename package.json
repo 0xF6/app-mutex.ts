@@ -1,6 +1,6 @@
 {
-  "name": "app-mutex.ts",
-  "version": "1.0.0",
+  "name": "app-mutex",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "author": "Yuuki Wesp",
   "license": "MIT",

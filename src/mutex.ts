@@ -20,10 +20,6 @@ type processInfo = { pid: number, ppid: number, uid: number, gid: number, name: 
  */
 export class Mutex {
     /**
-     * Need to verify PID?
-     */
-    private _checkPID: boolean;
-    /**
      * Name of Mutex
      */
     private _name: string;
@@ -35,8 +31,7 @@ export class Mutex {
      * Mutex status
      */
     private _status: MutexStatus = "ERR_NOT_INIT";
-    constructor(initiallyOwned: boolean, name: string, createdNew?: (st: MutexStatus) => void) {
-        this._checkPID = initiallyOwned;
+    constructor(name: string, createdNew?: (st: MutexStatus) => void) {
         this._name = name;
         this._hook = createdNew;
         this._lock();
