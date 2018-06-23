@@ -1,2 +1,2 @@
 # app-mutex.ts
-Application Mutex locker implemintation for TypeScript
+Application Mutex locker implementation for TypeScript
