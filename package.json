@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/0xF6/app-mutex.ts#readme",
   "scripts": {
-    "build": "tsc",
-    "test": "ava test/**/*.test.ts --verbose"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
