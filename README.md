@@ -1,4 +1,5 @@
 # app-mutex.ts
+[![Build Status](https://travis-ci.org/0xF6/app-mutex.ts.svg?branch=master)](https://travis-ci.org/0xF6/app-mutex.ts)   
 Application Mutex locker implementation for TypeScript 🐢
 
 
