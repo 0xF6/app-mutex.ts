@@ -33,6 +33,17 @@ your code...
 ```
 Then run your code in two instances, start only one. 😱
 
+#### Posible status of mutex
+    
+```TypeScript
+/**
+ * Mutext status type
+ * @argument ERR_NOT_INIT - Mutex not been initiated
+ * @argument CLEAR        - Mutex status - success, you can run application
+ * @argument CONFLICT     - Mutex detected runned this application
+ * @argument PID_DEAD     - Mutex was noticed that the application died
+ */
+``` 
 
 
 ### Why use it
