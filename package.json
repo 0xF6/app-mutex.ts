@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/0xF6/app-mutex.ts#readme",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo 'not found test'"
   },
   "repository": {
     "type": "git",
