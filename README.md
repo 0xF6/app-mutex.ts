@@ -1,5 +1,8 @@
 # app-mutex.ts
-[![Build Status](https://travis-ci.org/0xF6/app-mutex.ts.svg?branch=master)](https://travis-ci.org/0xF6/app-mutex.ts)   
+[![Build Status](https://travis-ci.org/0xF6/app-mutex.ts.svg?branch=master)](https://travis-ci.org/0xF6/app-mutex.ts) 
+[![Dependencies](https://img.shields.io/david/0xF6/app-mutex.ts.svg)](https://david-dm.org/0xF6/app-mutex.ts)
+[![Dev Dependencies](https://img.shields.io/david/dev/0xF6/app-mutex.ts.svg)](https://david-dm.org/0xF6/app-mutex.ts?type=dev)
+
 Application Mutex locker implementation for TypeScript 🐢
 
 
